@@ -16,9 +16,6 @@ class About extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
     }
 
     return (
@@ -35,15 +32,22 @@ class About extends Component {
             <p>{bio2}</p>
             <div className="row">
                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                <h2>Contact Details</h2>
                   <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
-					   </p>
+				    <span>
+                        <a>{name}</a>
+                   </span>
+                   <br />
+                    <span>
+                        <a>{street}</a>
+                        <br />
+						<a>{city} {state}, {zip}</a>
+                    </span>
+                     <br />
+					 <span><a>{phone}</a></span>
+                     <br />
+                     <span> <a href="mailto:leong.eric17@berkeler.edu">{email}</a></span>
+                     </p>
                </div>
                <div className="columns download">
                   <p>

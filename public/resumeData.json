@@ -16,12 +16,12 @@
       "state":"CA",
       "zip": "94704"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://ericleong.herokuapp.com/",
+    "resumedownload":"./resume.pdf",
     "social":[
       {
         "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
+        "url":"https://www.facebook.com/ericleong998",
         "className":"fa fa-facebook"
       },
       {
@@ -33,7 +33,12 @@
         "name":"github",
         "url":"http://github.com/mageofboy",
         "className":"fa fa-github"
-      }
+    },
+    {
+      "name":"mail",
+      "url":"leong.eric17@berkeley.edu",
+      "className":"fa fa-envelope-o"
+    }
     ]
   },
   "resume":{
