@@ -5,7 +5,7 @@
     "description":"",
     "image":"profilepic.jpg",
     "bio":"Hello~ I'm Eric. I'm currently a Sophomore at UC Berkeley. I came into Berkeley intending to study Biology and pursue the pre-med route for medical school. However, out of interest, I decided to take a Computer Science class and I enjoyed the class so much that decided to study Computer Science instead. Despite aiming to work in the industry as a Software Engineer, I still partake in research in areas related to Biology though I contribute to projects primarily through developing computational applications. ",
-    "life":" Besides my interest in the intersection between Biology and Computer Science, I am fond of Full Stack Development as a result of prior classes and projects in Web Development. Currently, I'm trying to develop my skills in Full Stack by acting as a Web Committee Director of Berkeley's local IEEE chapter.",
+    "life":" Besides my interest in the intersection between Biology and Computer Science, I am fond of Full Stack Development as a result of prior classes and projects in Web Development. Currently, I'm trying to develop my skills in Full Stack by acting as a Web Committee Director of Berkeley's local IEEE chapter. I've also started working as a Software Engineering Intern at a Berkeley startup, CatalistX. ",
     "life2":"",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "leong.eric17@berkeley.edu",
@@ -48,10 +48,16 @@
         "school":"University of California, Berkeley",
         "degree":"B.A. in Computer Science",
         "graduated":"August 2017 - May 2021",
-        "description":"Relevant Coursework:"
+        "description":""
       }
     ],
     "work":[
+        {
+          "company":"CatalistX",
+          "title":"Software Engineering Intern",
+          "years":"November 2018 - Present",
+          "description":""
+      },
       {
         "company":"IEEE Berkeley Chapter",
         "title":"Web Committee Director",
@@ -97,13 +103,13 @@
       {
         "title":"Name Tag",
         "category":"Cal Hacks 2017 Project",
-        "image":"canadian-wanderlust.jpg",
+        "image":"nametag.jpg",
         "url":"https://devpost.com/software/nametag"
       },
       {
         "title":"Vampires Textgame",
         "category":"Java textgame that I created out of boredom.",
-        "image":"fury-fighting-gear.jpg",
+        "image":"proj1.jpg",
         "url":"https://github.com/mageofboy/Vampire/tree/master"
       }
     ]
