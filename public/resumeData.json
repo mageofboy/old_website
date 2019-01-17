@@ -5,9 +5,9 @@
     "description":"",
     "image":"profilepic.jpg",
     "bio":"Hello~ I'm Eric. I'm currently a Sophomore at UC Berkeley. I came into Berkeley intending to study Biology and pursue the pre-med route for medical school. However, out of interest, I decided to take a Computer Science class and I enjoyed the class so much that decided to study Computer Science instead. Despite aiming to work in the industry as a Software Engineer, I still partake in research in areas related to Biology though I contribute to projects primarily through developing computational applications. ",
-    "life":" Besides my interest in the intersection between Biology and Computer Science, I am fond of Full Stack Development as a result of prior classes and projects in Web Development. Currently, I'm trying to develop my skills in Full Stack by acting as a Web Committee Director of Berkeley's local IEEE chapter. I've also started working as a Software Engineering Intern at a Berkeley startup, CatalistX. ",
+    "life":" Besides my interest in the intersection between Biology and Computer Science, I am fond of Full Stack Development as a result of prior classes and projects in Web Development. Currently, I'm trying to develop my skills in Full Stack by acting as a Web Committee Director of Berkeley's local IEEE chapter. I've also started working as a Full Stack Engineering Intern at a Berkeley startup, CatalistX. ",
     "life2":"",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Hello.",
     "email": "leong.eric17@berkeley.edu",
     "phone": "415-361-0558",
     "address":{
@@ -54,21 +54,21 @@
     "work":[
         {
           "company":"CatalistX",
-          "title":"Software Engineering Intern",
+          "title":"Full Stack Engineering Intern",
           "years":"November 2018 - Present",
-          "description":""
+          "description":"I work with the lead developer on creating features on our product, a website that establishes a connection between growing start ups and college students interested in working at start ups."
       },
       {
         "company":"IEEE Berkeley Chapter",
         "title":"Web Committee Director",
         "years":"January 2018 - Present",
-        "description":""
+        "description":"I lead the website committee of the Berkeley branch of IEEE. As a committee, we update and develop features for our organization's website."
       },
       {
         "company":"Williams Lab",
         "title":"Undergraduate Research",
         "years":"September 2018 - Present",
-        "description":""
+        "description":"I am a research assistant for Professor Williams and Professor Sudmant, assisting them in their joint research project to find a molecular basis for convergence of dormancy. I've developed an algorithm for gathering and parsing certain DNA data, and am currently in progress of integrating DNA analysis applications necessary for our project."
       }
     ],
     "skills":[
