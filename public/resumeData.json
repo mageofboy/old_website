@@ -68,7 +68,7 @@
         "company":"Williams Lab",
         "title":"Undergraduate Research",
         "years":"September 2018 - Present",
-        "description":"I am a research assistant for Professor Williams and Professor Sudmant, assisting them in their joint research project to find a molecular basis for convergence of dormancy. I've developed an algorithm for gathering and parsing certain DNA data, and am currently in progress of integrating DNA analysis applications necessary for our project."
+        "description":"I am a research assistant for Professor Williams and Professor Sudmant, assisting them in their joint research project to find a molecular basis for convergence of dormancy. In other words, we are trying to show that all the different forms of hibernations, in both mammals and insects, have a genetic basic. So far, my partner and I have developed an algorithm that efficiently finds gene mapping, given a set of species and genes. Furthermore, we've developed a formatter that converts the output, into a structure that is readily used by many genetic analysis programs, including PAML. "
       }
     ],
     "skills":[
