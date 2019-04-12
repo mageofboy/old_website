@@ -48,7 +48,7 @@
         "school":"University of California, Berkeley",
         "degree":"B.A. in Computer Science",
         "graduated":"August 2017 - May 2021",
-        "description":""
+        "description":"Computer Programs • Data Structures • Artificial Intelligence • Algorithms • Computer-Architecture • Discrete Math • Probability "
       }
     ],
     "work":[
@@ -111,6 +111,12 @@
         "category":"Java textgame that I created out of boredom.",
         "image":"proj1.jpg",
         "url":"https://github.com/mageofboy/Vampire/tree/master"
+      },
+      {
+        "title":"Scheme Art",
+        "category":"CS 61A Contest, 2nd place submission",
+        "image":"scheme_art.png",
+        "url":"https://inst.eecs.berkeley.edu/~cs61a/sp18/proj/scheme_gallery/#poseidon-s-kiss"
       }
     ]
   },

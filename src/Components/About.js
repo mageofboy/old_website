@@ -31,27 +31,10 @@ class About extends Component {
             <p>{bio1}</p>
             <p>{bio2}</p>
             <div className="row">
-               <div className="columns contact-details">
-                <h2>Contact Details</h2>
-                  <p className="address">
-				    <span>
-                        <a>{name}</a>
-                   </span>
-                   <br />
-                    <span>
-                        <a>{street}</a>
-                        <br />
-						<a>{city} {state}, {zip}</a>
-                    </span>
-                     <br />
-					 <span><a>{phone}</a></span>
-                     <br />
-                     <span> <a href="mailto:leong.eric17@berkeley.edu">{email}</a></span>
-                     </p>
-               </div>
+
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={resumeDownload} className="button" target="_blank"  rel="noopener noreferrer"><i className="fa fa-download" ></i>Download Resume</a>
                   </p>
                </div>
             </div>
