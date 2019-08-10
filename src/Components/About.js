@@ -7,8 +7,8 @@ class About extends Component {
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
-      var bio1 = this.props.data.life;
-      var bio2 = this.props.data.life2;
+      var bio1 = this.props.data.bio1;
+      var bio2 = this.props.data.bio2;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
@@ -32,11 +32,11 @@ class About extends Component {
             <p>{bio2}</p>
             <div className="row">
 
-               <div className="columns download">
+               {/** <div className="download">
                   <p>
                      <a href={resumeDownload} className="button" target="_blank"  rel="noopener noreferrer"><i className="fa fa-download" ></i>Download Resume</a>
                   </p>
-               </div>
+               </div>**/}
             </div>
          </div>
       </div>

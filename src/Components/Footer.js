@@ -4,6 +4,7 @@ class Footer extends Component {
   render() {
 
     if(this.props.data){
+      var resumeDownload = this.props.data.resumedownload;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
@@ -16,6 +17,7 @@ class Footer extends Component {
         <div className="twelve columns">
            <ul className="social-links">
               {networks}
+              <li key="resume"><a href={resumeDownload} target="_blank"  rel="noopener noreferrer"><i className="fa fa-download" ></i></a></li>
            </ul>
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>

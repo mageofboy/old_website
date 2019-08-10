@@ -8,6 +8,7 @@ class Header extends Component {
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
+      var resumeDownload = this.props.data.resumedownload;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
@@ -34,10 +35,11 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">Hello! I'm Eric.</h1>
-            <h3><span> I'm a Sophomore at UC Berkeley, studying Computer Science.</span> {description}.</h3>
+            <h3><span> I'm a Junior at UC Berkeley, studying Computer Science.</span> {description}.</h3>
             <hr />
             <ul className="social">
                {networks}
+               <li key="resume"><a href={resumeDownload} target="_blank"  rel="noopener noreferrer"><i className="fa fa-download" ></i></a></li>
             </ul>
          </div>
       </div>

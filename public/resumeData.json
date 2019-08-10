@@ -4,9 +4,9 @@
     "occupation":"Student",
     "description":"",
     "image":"profilepic.jpg",
-    "bio":"Hello~ I'm Eric. I'm currently a Sophomore at UC Berkeley. I came into Berkeley intending to study Biology and pursue the pre-med route for medical school. However, out of interest, I decided to take a Computer Science class and I enjoyed the class so much that decided to study Computer Science instead. Despite aiming to work in the industry as a Software Engineer, I still partake in research in areas related to Biology though I contribute to projects primarily through developing computational applications. ",
-    "life":" Besides my interest in the intersection between Biology and Computer Science, I am fond of Full Stack Development as a result of prior classes and projects in Web Development. Currently, I'm trying to develop my skills in Full Stack by acting as a Web Committee Director of Berkeley's local IEEE chapter. I've also started working as a Full Stack Engineering Intern at a Berkeley startup, CatalistX. ",
-    "life2":"",
+    "bio":"Hello~ I'm Eric. I'm currently an incoming Junior at UC Berkeley. I came into Berkeley intending to study Biology and pursue the pre-med route for medical school. However, out of interest, I decided to take a Computer Science class and I enjoyed the class so much that decided to study Computer Science instead. Despite aiming to work in the industry as a Software Engineer, I am currently contributing to research in Computational Biology as it allows me to study the interseciot between Computer Science and Biology.",
+    "bio1":"I am also fond of Full Stack Development as a result of prior experience with Web Development. I'm currently acting as a Web Committee Co-Director of the UC Berkeley IEEE chapter where I lead the committee through multiple projects to improve the website.  I also have experience with Full Stack Development as a Software Engineering Intern at a SkyDeck startup, CatalistX, where I developed a wide variety of smaller features in addition to a few bigger ones, such as a messenger feature. ",
+    "bio2":"This summer, I am working as a Software Engineering Intern at Symantec on the Norton Mobile Solutions team. I developed an automated performance testing pipeline that is usable by all the mobile apps. The pipeline is currently in use for comparing new product releases to previous ones and identifying any performance differences through analysis on collected performance data. ",
     "contactmessage":"Hello.",
     "email": "leong.eric17@berkeley.edu",
     "phone": "415-361-0558",
@@ -20,13 +20,8 @@
     "resumedownload":"./resume.pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://www.facebook.com/ericleong998",
-        "className":"fa fa-facebook"
-      },
-      {
         "name":"linkedin",
-        "url":"https://linkedin.com/in/eric-leong-542a56149/",
+        "url":"https://linkedin.com/in/eric-leong",
         "className":"fa fa-linkedin"
       },
       {
@@ -48,14 +43,20 @@
         "school":"University of California, Berkeley",
         "degree":"B.A. in Computer Science",
         "graduated":"August 2017 - May 2021",
-        "description":"Computer Programs • Data Structures • Artificial Intelligence • Algorithms • Computer-Architecture • Discrete Math • Probability "
+        "description":["CS 61A: Structure and Interpretation of Computer Programs", "EE 16A: Designing Information Devices and Systems I", "Math 53: Multivariable Calculus", "CS 61B: Data Structures", "CS 61C: Computer Architecture", "CS 70: Discrete Math and Probability", "CS 170: Algorithms and Intractible Problems", "CS 188: Artificial Intelligence", "CS 162: Operating Systems  (In Progress)", "CS 100: Principles and Techniques of Data Science  (In Progress)", "EECS 127: Convex Optimization  (In Progress)"]
       }
     ],
     "work":[
+      {
+        "company":"Symantec",
+        "title":"Software Engineering Intern",
+        "years":"June 1, 2018 - August 22, 2019",
+        "description":"Built an automated performance testing pipeline on the Mobile Security Team that uses sampled data for analysis to provide easily interpretable statistics and alerts incase of performance differences between product releases. "
+      },
         {
           "company":"CatalistX",
-          "title":"Full Stack Engineering Intern",
-          "years":"November 2018 - Present",
+          "title":"Software Engineering Intern",
+          "years":"November 1, 2018 - February 1, 2019",
           "description":"I work with the lead developer on creating features on our product, a website that establishes a connection between growing start ups and college students interested in working at start ups."
       },
       {
@@ -105,12 +106,6 @@
         "category":"Cal Hacks 2017 Project",
         "image":"nametag.jpg",
         "url":"https://devpost.com/software/nametag"
-      },
-      {
-        "title":"Vampires Textgame",
-        "category":"Java textgame that I created out of boredom.",
-        "image":"proj1.jpg",
-        "url":"https://github.com/mageofboy/Vampire/tree/master"
       },
       {
         "title":"Scheme Art",
